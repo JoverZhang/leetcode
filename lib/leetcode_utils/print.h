@@ -15,7 +15,7 @@ class print {
   }
 
   template <typename T, typename ...TAIL>
-  print(T &t, TAIL ...tail) {
+  print(const T &t, TAIL ...tail) {
     cout << t << ' ';
     print(tail...);
   }
