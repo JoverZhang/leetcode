@@ -1,7 +1,7 @@
-#include "leetcode_utils/utils.h"
+#include "test/zigZag_conversion_test.cc"
 
 using namespace lc_utils;
 
 int main() {
-  print("Initialize", "done");
+  zigZag_conversion_test();
 }
