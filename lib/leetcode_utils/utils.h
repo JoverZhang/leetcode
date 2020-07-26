@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 #include "./print.h"
-#include "./test_tool.h"
+#include "./executor.h"
 
 using std::string;
 using std::cin;
@@ -14,6 +14,6 @@ using std::vector;
 using std::min;
 using std::max;
 using lc_utils::print;
-using lc_utils::batch_invoke;
+using lc_utils::Executor;
 
 #endif //LEETCODE_UTILS_H
