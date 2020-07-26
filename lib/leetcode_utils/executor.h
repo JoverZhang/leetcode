@@ -1,5 +1,4 @@
-#ifndef LEETCODE_EXECUTOR_H
-#define LEETCODE_EXECUTOR_H
+#pragma once
 
 #include "./utils.h"
 
@@ -28,5 +27,3 @@ class Executor {
 };
 
 }
-
-#endif //LEETCODE_EXECUTOR_H

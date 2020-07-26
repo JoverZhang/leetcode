@@ -1,5 +1,4 @@
-#ifndef LEETCODE_PRINT_H
-#define LEETCODE_PRINT_H
+#pragma once
 
 #include <ostream>
 
@@ -22,5 +21,3 @@ class print {
 };
 
 }
-
-#endif //LEETCODE_PRINT_H

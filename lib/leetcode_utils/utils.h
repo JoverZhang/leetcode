@@ -1,5 +1,4 @@
-#ifndef LEETCODE_UTILS_H
-#define LEETCODE_UTILS_H
+#pragma once
 
 #include <iostream>
 #include <vector>
@@ -15,5 +14,3 @@ using std::min;
 using std::max;
 using lc_utils::print;
 using lc_utils::Executor;
-
-#endif //LEETCODE_UTILS_H

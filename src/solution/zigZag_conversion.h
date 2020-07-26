@@ -1,5 +1,4 @@
-#ifndef LEETCODE_ZIGZAG_CONVERSION_H
-#define LEETCODE_ZIGZAG_CONVERSION_H
+#pragma once
 
 #include <leetcode_utils//utils.h>
 
@@ -59,5 +58,3 @@ class ZigZagConversion {
     return result;
   }
 };
-
-#endif //LEETCODE_ZIGZAG_CONVERSION_H
