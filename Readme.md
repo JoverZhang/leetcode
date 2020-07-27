@@ -19,3 +19,6 @@
 
 + [6. ZigZag Conversion](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/zigZag_conversion.h) 
 -> [question](https://leetcode.com/problems/zigzag-conversion/)
+
++ [7. Reverse Integer](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/reverse_integer.h) 
+-> [question](https://leetcode.com/problems/reverse-integer/)
