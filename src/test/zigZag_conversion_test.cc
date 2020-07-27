@@ -1,7 +1,7 @@
 #include "../solution/zigZag_conversion.h"
 
 void zigZag_conversion_test() {
-  Executor executor(ZigZagConversion::convert);
+  Executor executor(ZigZagConversionBest::convert);
   executor
       .exec("PAYPALISHIRING", 3)
       .exec("PAYPALISHIRING", 4)
