@@ -22,3 +22,6 @@
 
 + [7. Reverse Integer](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/reverse_integer.h) 
 -> [question](https://leetcode.com/problems/reverse-integer/)
+
++ [8. String to Integer (atoi)](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/string_to_integer.h) 
+-> [question](https://leetcode.com/problems/string-to-integer-atoi/)
