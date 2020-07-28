@@ -2,7 +2,28 @@
 
 #include <leetcode_utils/utils.h>
 
-class StringToIntegerBest {
+class StringToIntegerBest1 {
+ public:
+  static int myAtoi(string str) {
+    int res = 0, i = 0, sign = 1;
+    while (i < str.size() && str[i] == ' ') i++;
+
+    if (i < str.size() && (str[i] == '+' || str[i] == '-')) {
+      sign = (str[i++] == '+') ? 1 : -1;
+    }
+
+    while (i < str.size() && str[i] <= '9' && str[i] >= '0') {
+      if (res > INT_MAX / 10 || (res == INT_MAX / 10 && str[i] > '7'))
+
+        return (sign == 1) ? INT_MAX : INT_MIN;
+
+      res = res * 10 + (str[i++] - '0');
+    }
+    return sign * res;
+  }
+};
+
+class StringToIntegerBest2 {
  public:
   static int myAtoi(string str) {
     bool neg = false;
