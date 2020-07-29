@@ -25,3 +25,6 @@
 
 + [8. String to Integer (atoi)](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/string_to_integer.h) 
 -> [question](https://leetcode.com/problems/string-to-integer-atoi/)
+
++ [9. Palindrome Number](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/palindrome_number.h) 
+-> [question](https://leetcode.com/problems/palindrome-number/)
