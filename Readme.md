@@ -5,7 +5,7 @@
 + [1. Two Sum](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/two_sum.h)
 -> [question](https://leetcode.com/problems/two-sum/)
 
-+ [2. Add Two Numbers]
++ [2. Add Two Numbers](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/add_two_numbers.h)
 -> [question](https://leetcode.com/problems/add-two-numbers/)
 
 + [3. Longest Substring Without Repeating Characters]
