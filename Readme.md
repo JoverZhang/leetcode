@@ -2,7 +2,7 @@
 
 ### Contents
 
-+ [1. Two Sum]
++ [1. Two Sum](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/two_sum.h)
 -> [question](https://leetcode.com/problems/two-sum/)
 
 + [2. Add Two Numbers]
