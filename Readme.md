@@ -17,14 +17,14 @@
 + [5. Longest Palindromic Substring]
 -> [question](https://leetcode.com/problems/longest-palindromic-substring/)
 
-+ [6. ZigZag Conversion](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/zigZag_conversion.h) 
++ [6. ZigZag Conversion](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/zigZag_conversion.h)
 -> [question](https://leetcode.com/problems/zigzag-conversion/)
 
-+ [7. Reverse Integer](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/reverse_integer.h) 
++ [7. Reverse Integer](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/reverse_integer.h)
 -> [question](https://leetcode.com/problems/reverse-integer/)
 
-+ [8. String to Integer (atoi)](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/string_to_integer.h) 
++ [8. String to Integer (atoi)](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/string_to_integer.h)
 -> [question](https://leetcode.com/problems/string-to-integer-atoi/)
 
-+ [9. Palindrome Number](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/palindrome_number.h) 
++ [9. Palindrome Number](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/palindrome_number.h)
 -> [question](https://leetcode.com/problems/palindrome-number/)
