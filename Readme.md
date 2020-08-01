@@ -8,7 +8,7 @@
 + [2. Add Two Numbers](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/add_two_numbers.h)
 -> [question](https://leetcode.com/problems/add-two-numbers/)
 
-+ [3. Longest Substring Without Repeating Characters]
++ [3. Longest Substring Without Repeating Characters](https://github.com/JoverZhang/leetcode.cpp/blob/master/src/solution/longest_substring_without_repeating_characters.h)
 -> [question](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 + [4. Median of Two Sorted Arrays]
