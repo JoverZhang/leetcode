@@ -5,5 +5,7 @@ project(leetcode LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_C_STANDARD 23)
 
+include_directories(include)
+
 add_subdirectory(src)
-add_subdirectory(lib)
+add_subdirectory(include)
