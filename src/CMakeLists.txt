@@ -1,16 +1,8 @@
 enable_testing()
 include(GoogleTest)
 
-file(GLOB_RECURSE C_SRC_FILES *.c)
-foreach (f ${C_SRC_FILES})
-    get_filename_component(exec_name ${f} NAME_WE)
-    add_executable(${exec_name} ${f})
-    target_link_libraries(${exec_name} leetcode_lib GTest::gtest_main)
-    gtest_discover_tests(${exec_name})
-endforeach ()
-
-file(GLOB_RECURSE CXX_SRC_FILES *.cpp)
-foreach (f ${CXX_SRC_FILES})
+file(GLOB_RECURSE SRC_FILES *.c *.cpp)
+foreach (f ${SRC_FILES})
     get_filename_component(exec_name ${f} NAME_WE)
     add_executable(${exec_name} ${f})
     target_link_libraries(${exec_name} leetcode_lib GTest::gtest_main)
