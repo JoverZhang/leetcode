@@ -1,0 +1,15 @@
+include_directories(${PROJECT_SOURCE_DIR}/lib)
+
+file(GLOB_RECURSE C_SRC_FILES *.c)
+foreach (f ${C_SRC_FILES})
+    get_filename_component(exec_name ${f} NAME_WE)
+    add_executable(${exec_name} ${f})
+    target_link_libraries(${exec_name} leetcode_lib)
+endforeach ()
+
+file(GLOB_RECURSE CXX_SRC_FILES *.cc)
+foreach (f ${CXX_SRC_FILES})
+    get_filename_component(exec_name ${f} NAME_WE)
+    add_executable(${exec_name} ${f})
+    target_link_libraries(${exec_name} leetcode_lib)
+endforeach ()
