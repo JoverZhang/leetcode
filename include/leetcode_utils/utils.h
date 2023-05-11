@@ -20,3 +20,21 @@ using std::max;
 using std::pow;
 using lc_utils::print;
 using lc_utils::Executor;
+
+template<typename S>
+std::ostream& operator<<(std::ostream& os,
+                         const vector<S>& vector) {
+  for (auto element : vector) {
+    os << element << " ";
+  }
+  return os;
+}
+
+template<typename S>
+std::ostream& operator<<(std::ostream& os,
+                         const vector<vector<S>>& vector) {
+  for (auto element : vector) {
+    os << element << endl;
+  }
+  return os;
+}
