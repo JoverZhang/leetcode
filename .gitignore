@@ -1,10 +1,10 @@
-/build
-
 # IDE
+.cache
 .idea
 .vscode
 
 # CMake
+/build
 cmake-build*
 
 # Prerequisites
