@@ -5,6 +5,9 @@ project(leetcode LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_C_STANDARD 23)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_BUILD_TYPE Debug)
+
 include_directories(include)
 
 # GTest
