@@ -16,7 +16,6 @@ public:
       dp[i] = std::min(dp[i - 1], dp[i - 2]) + cost[i];
     }
 
-    cout << dp << endl;
     return std::min(dp[cost.size() - 1], dp[cost.size() - 2]);
   }
 };
