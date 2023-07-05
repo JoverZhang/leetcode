@@ -1,18 +1,17 @@
 #pragma once
 
-#include "./utils.h"
+#include "./print.h"
 
 namespace lc_utils {
 
-template <typename Invoke>
-class Executor {
- public:
-  Executor(Invoke invoke) : invoke_(invoke), openPrint_(true) {}
+template <typename Invoke> class Executor {
+public:
+  explicit Executor(Invoke invoke) : invoke_(invoke), openPrint_(true) {}
 
-  Executor(Invoke invoke, bool openPrint) : invoke_(invoke), openPrint_(openPrint) {}
+  Executor(Invoke invoke, bool openPrint)
+      : invoke_(invoke), openPrint_(openPrint) {}
 
-  template <typename ...ARGS>
-  Executor exec(ARGS ...args) {
+  template <typename... ARGS> Executor exec(ARGS... args) {
     if (openPrint_) {
       print(invoke_(args...));
     } else {
@@ -21,9 +20,9 @@ class Executor {
     return *this;
   }
 
- protected:
+protected:
   Invoke invoke_;
   bool openPrint_;
 };
 
-}
+} // namespace lc_utils
