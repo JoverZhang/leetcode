@@ -1,5 +1,5 @@
-#include <leetcode_utils/utils.h>
 #include <gtest/gtest.h>
+#include <leetcode_utils/utils.h>
 
 class Solution {
  public:
