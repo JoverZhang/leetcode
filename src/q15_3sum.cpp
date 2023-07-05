@@ -2,8 +2,8 @@
 #include <leetcode_utils/utils.h>
 
 class Solution {
-public:
-  vector<vector<int>> threeSum(vector<int> &nums) {
+ public:
+  vector<vector<int>> threeSum(vector<int>& nums) {
     sort(nums.begin(), nums.end());
     auto list = vector<vector<int>>();
 
